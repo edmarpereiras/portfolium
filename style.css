@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-one {
+background: #000000;
+}
+
+.bg-two {
+    color: white;
+}
+
+.bg-two h1 {
+    color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu img {
+    margin-right: 10rem;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home p {
+    font-size: 1.2em;
+    font-weight: 100;
+    margin: 0rem 7rem 0rem 6rem;
+    color: white;
+}
+
+
+h1 {
+    font-size: 5.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding-right: 8rem;
+    letter-spacing: 0.2rem;
+    margin: 4rem 0rem 2rem 5rem;
+    line-height: 1.2;
+}
+
+span {
+    color: black;
+    background: linear-gradient(91deg,  #CD6799, #F26767, #FFCD05);
+    background-size: 200% 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.illustration {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.box-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.box-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.card {
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    padding-right: 15rem;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
